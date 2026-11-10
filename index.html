@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VAD Medconsult - Eye Surgeries in India</title>
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Card Hover Effect: Blue Background, White Text & Icons */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+  background: var(--primary) !important;
+  color: var(--white) !important;
+}
+
+/* Ensure headings and paragraphs turn white on hover */
+.card:hover h3,
+.card:hover p {
+  color: var(--white) !important;
+}
+
+/* Turn card icons and images white on hover using CSS brightness filter */
+.card:hover .card-icon img {
+  filter: brightness(0) invert(1);
+}
+    </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <img src="logo.png" alt="Logo">
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#treatments">Treatments</a>
+        <a href="#how-it-works">Your Journey</a>
+        <a href="#why-us">Why Trust Us</a>
+        <a href="#we-serve">Countries We Serve</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact Us</a>
+        <!-- Trigger Modal Button -->
+        <button class="btn btn-primary nav-btn open-modal-btn" style="color:#fff; cursor:pointer;"><i class="fa-solid fa-phone"></i> Get a Quote</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="badge badge-accent">Medical Travel For Eye Care, India</span>
+        <h1>State-of-the-art<span> Eye Surgeries</span> in <strong><span> India</span></strong></h1>
+        <p>All eye specialities and surgeries are available in one trip:  Cataract surgery, Glaucoma, ICL and Oculoplasty. VAD MedConsult plans your treatment, travel, stay and language support, so you can focus on your recovery.</p>
+        <div class="hero-btns">
+          <!-- Trigger Modal Button -->
+          <button class="btn btn-primary open-modal-btn"><i class="fa-solid fa-paper-plane"></i> Get Free Quote</button>
+          <a href="https://wa.me/9752248870" class="btn btn-success" target="_blank"><i class="fa-brands fa-whatsapp"></i> Chat On WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <!-- Watermark Text -->
+    <div class="hero-watermark">VAD MEDCONSULT</div>
+  </section>
+
+  <!-- Treatments Section -->
+  <section class="section treatments" id="treatments">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="badge">Treatments</span>
+        <h2>All <span class="ble">Eye Care and Surgeries</span>, Planned Under One Roof</h2>
+        <p>Whatever your eye care need, our team will guide you to the right speciality and surgeon in India.</p>
+      </div>
+
+      <div class="cards-grid">
+        <div class="card treatment-card highlight1">
+          <div class="card-icon" style="background:transparent;"><img src="images/11-1.png" alt=""></div>
+          <h3>Cataract Surgery</h3>
+          <p>Replace the clouded natural lens with a clear artificial lens (IOL) to restore clear vision.</p>
+        </div>
+        <div class="card treatment-card">
+          <div class="card-icon"><img src="images/12.png" alt=""></div>
+          <h3>Oculoplasty</h3>
+          <p>Surgery for the eyelids, tear ducts and the area around the eyes, for both functional and cosmetic needs.</p>
+        </div>
+        <div class="card treatment-card">
+          <div class="card-icon"><img src="images/13.png" alt=""></div>
+          <h3>Glaucoma Care</h3>
+          <p>Treatment & Monitoring to help protect optic nerve from damage caused by raised eye pressure.</p>
+        </div>
+        <div class="card treatment-card">
+          <div class="card-icon"><img src="images/14.png" alt=""></div>
+          <h3>ICL (Implantable Contact Lens)</h3>
+          <p>A lens placed inside the eye, in front of the natural lens, to reduce dependence on glasses and contact lenses.</p>
+        </div>
+        <div class="card treatment-card span-2">
+          <div class="card-icon"><img src="images/15.png" alt=""></div>
+          <h3>Retinal Surgeries, Injections and Lasers</h3>
+          <p>Specialist care for conditions that affect retina, the light-sensing layer at the back of the eye.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process / How It Works Section -->
+  <section class="section process" id="how-it-works">
+    <div class="container text-center section-header">
+      <span class="badge badge-accent">Your Journey</span>
+      <h2>Eye Treatment in <span class="blg">India</span>, Without the Stress</h2>
+      <p>We plan your surgery dates, travel, stay and interpreter, so you can focus on healing.</p>
+
+      <div class="process-steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Send an Inquiry</h3>
+          <p>Fill the short form or message us on WhatsApp</p>
+        </div>
+        <div class="step-connector"><i class="fa-solid fa-chevron-right"></i></div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Free Consultation</h3>
+          <p>Our team replies within a few hours and explains your options</p>
+        </div>
+        <div class="step-connector"><i class="fa-solid fa-chevron-right"></i></div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Plan Your Trip</h3>
+          <p>We help with surgery dates, travel, stay and your interpreter</p>
+        </div>
+        <div class="step-connector"><i class="fa-solid fa-chevron-right"></i></div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <h3>Treatment in India</h3>
+          <p>You are treated, rest and recover, with our team beside you</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="section why-us" id="why-us">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="badge">Why Patients Prefer Us</span>
+        <h2>A <span class="ble">Trip Planned</span> Around You, with <span class="ble"> Support</span> at Every Step</h2>
+        <p>Travelling for surgery should feel safe and simple. Here is what you get when you choose VAD MedConsult.</p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-image">
+          <img src="images/why.png" alt="Team Support">
+        </div>
+        <div class="why-cards">
+          <div class="why-card blue">
+            <div>
+              <img src="images/21.png" alt="">
+              <h3>Choose Your IOL (Implant)</h3>
+              <p>Pick the lens that fits your needs, with every option explained clearly by our team before you decide.</p>
+            </div>
+          </div>
+          <div class="why-card green">
+            <div>
+              <img src="images/22.png" alt="">
+              <h3>Interpreters With You</h3>
+              <p>Bilingual interpreters are available during your entire stay in India, at the hospital and outside it.</p>
+            </div>
+          </div>
+          <div class="why-card green">
+            <div>
+              <img src="images/23.png" alt="">
+              <h3>Schedule Surgery Any Time</h3>
+              <p>Pick dates that fit your work, family, and travel plans with ease.</p>
+            </div>
+          </div>
+          <div class="why-card blue">
+            <div>
+              <img src="images/24.png" alt="">
+              <h3>Flexible Travel & Stay Packages</h3>
+              <p>Choose options that match your budget, from flights and hotels to airport pickup.</p>
+            </div>
+          </div>
+          <div class="why-card blue">
+            <div>
+              <img src="images/26.png" alt="">
+              <h3>Local Sightseeing</h3>
+              <p>Add city tours before or after your treatment.</p>
+            </div>
+          </div>
+          <div class="why-card green">
+            <div>
+              <img src="images/25.png" alt="">
+              <h3>Relaxing Spa Sessions</h3>
+              <p>Rest and recover in comfort as part of your trip.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Banner Bar -->
+  <div class="feature-bar">
+    <div class="container feature-bar-container">
+      <div class="feature-item">NABH Accredited Eye Hospitals Pan India</div>
+      <div class="feature-item">Free Consultation, No Obligation</div>
+      <div class="feature-item">Interpreter With You During Your Stay</div>
+      <div class="feature-item">Surgery dates to suit you</div>
+    </div>
+  </div>
+
+  <!-- FAQ Section -->
+  <section class="section faq-section" id="faq">
+    <div class="container">
+      <div class="section-header text-center light-text">
+        <span class="badge badge-accent">FAQ</span>
+        <h2><span class="blg">Questions</span> Patients Often Ask</h2>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <button class="faq-question">How do I start planning my treatment? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer">
+            <p>Simply contact us via WhatsApp or fill out our online form. Send us your latest medical and eye examination reports, and our team will get back to you within 24 hours with a comprehensive treatment plan.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How long do I need to stay in India for surgery? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer">
+            <p>Most outpatient eye procedures like LASIK or Cataract surgery require a stay of 5 to 7 days, including pre-operative evaluations and initial post-op follow-ups.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Do doctors & staff speak English or Russian? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer">
+            <p>All doctors speak fluent English. Additionally, VAD Medconsult provides dedicated Russian-speaking translators who will accompany you to every hospital visit.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How much does the treatment cost? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer">
+            <p>Treatments in India cost up to 60–80% less than in Western countries or Central Asia without compromising quality. Contact us for an exact quote based on your requirements.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Can I bring a companion with me? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer">
+            <p>Yes, absolutely. We assist with medical attendant visas, accommodation for two, and logistics so your family member can travel comfortably with you.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Do you assist with Medical Visa invitation letters? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer">
+            <p>Yes, we issue official hospital Visa Invitation Letters (VIL) required for fast-track Indian Medical Visas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Central Asia Regional Focus Banner -->
+  <section class="section regional-section" id="we-serve">
+    <div class="container text-center section-header">
+      <span class="badge">Regional Support</span>
+      <h2>Helping Patients From <span class="ble">Central Asia</span></h2>
+      <div class="country-pills">
+        <span class="pill"><img src="images/flag-1.png" alt=""> Uzbekistan</span>
+        <span class="pill"><img src="images/flag-5.png" alt=""> Kazakhstan</span>
+        <span class="pill"><img src="images/flag-2.png" alt=""> Kyrgyzstan</span>
+        <span class="pill"><img src="images/flag-4.png" alt=""> Tajikistan</span>
+        <span class="pill"><img src="images/flag-3.png" alt=""> Turkmenistan</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form & Free Consultation Section -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="badge">Contact Us Today</span>
+          <h2>Get Your Free Consultation</h2>
+          <p>Fill in your details and our team will message you on WhatsApp within a few hours.</p>
+	 
+          <div class="info-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <strong>Address</strong>
+              <p>Sarafa Bazar, Lashkar Gwalior</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <strong>Phone</strong>
+              <p>9752248870</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <strong>Email</strong>
+              <p>vadmedconsult@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-card">
+          <h3>Contact Us</h3>
+          <form id="consultationForm" action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="1a51d927-5c38-48c9-bd66-48d93f633f7d">
+  <input type="hidden" name="subject" value="New Consultation Inquiry - VAD MedConsult">
+  
+  <div class="form-row">
+    <div class="form-group">
+      <label for="name">Full Name *</label>
+      <input type="text" id="name" name="name" required placeholder="Enter full name">
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone Number *</label>
+      <input type="tel" id="phone" name="phone" required placeholder="+998 90 123 45 67">
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="example@mail.com">
+    </div>
+    <div class="form-group">
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="Uzbekistan">Uzbekistan</option>
+        <option value="Kazakhstan">Kazakhstan</option>
+        <option value="Kyrgyzstan">Kyrgyzstan</option>
+        <option value="Tajikistan">Tajikistan</option>
+        <option value="Turkmenistan">Turkmenistan</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="treatment">Select Treatment Needed</label>
+    <select id="treatment" name="treatment">
+      <option value="Cataract">Cataract Surgery</option>
+      <option value="LASIK">LASIK / SMILE Vision Correction</option>
+      <option value="Glaucoma">Glaucoma Care</option>
+      <option value="ICL">ICL Contact Lenses</option>
+      <option value="Retinal">Retinal Surgeries & Lasers</option>
+      <option value="Other">Other Eye Condition</option>
+    </select>
+  </div>
+
+  <button type="submit" class="btn btn-primary btn-block"><i class="fa-solid fa-paper-plane"></i> Send an Enquiry</button>
+</form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= POPUP MODAL START ================= -->
+  <div class="quote-modal-overlay" id="quoteModal">
+    <div class="quote-modal-content">
+      <button class="modal-close-btn" id="closeModalBtn" aria-label="Close Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <h2>Get A Free Quote Now</h2>
+      <form id="consultationForm" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="1a51d927-5c38-48c9-bd66-48d93f633f7d">
+  <input type="hidden" name="subject" value="New Popup Quote Request - VAD MedConsult">
+  <input type="hidden" name="from_name" value="VAD MedConsult Popup">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="popupName">Full Name</label>
+            <input type="text" id="popupName" required placeholder="Enter your full name">
+          </div>
+          <div class="form-group">
+            <label for="popupPhone">Phone Number</label>
+            <div class="phone-input-group" style="display: flex; gap: 8px;">
+              <select id="popupCountryCode" name="country_code" style="width: 110px; padding: 10px; border-radius: 6px; border: 1px solid #ccc;">
+                <option value="+91">🇮🇳 +91</option>
+                <option value="+998">🇺🇿 +998</option>
+                <option value="+7">🇰🇿 +7</option>
+                <option value="+996">🇰🇬 +996</option>
+                <option value="+992">🇹🇯 +992</option>
+                <option value="+993">🇹🇲 +993</option>
+                <option value="+1">🇺🇸 +1</option>
+              </select>
+              <input type="tel" id="popupPhone" name="popupPhone" required placeholder="00000 00000" style="flex: 1;">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="popupEmail">Email Address</label>
+            <input type="email" id="popupEmail" placeholder="Enter your email address">
+          </div>
+          <div class="form-group">
+            <label for="popupService">Service</label>
+            <select id="popupService">
+              <option value="Select service">Select service</option>
+              <option value="Cataract Surgery">Cataract Surgery</option>
+              <option value="Oculoplasty">Oculoplasty</option>
+              <option value="Glaucoma Care">Glaucoma Care</option>
+              <option value="ICL">ICL (Implantable Contact Lens)</option>
+              <option value="Retinal Surgeries">Retinal Surgeries & Lasers</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="popupMessage">Message</label>
+          <textarea id="popupMessage" rows="3" placeholder="Leave your message"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block modal-send-btn">SEND</button>
+      </form>
+    </div>
+  </div>
+  <!-- ================= POPUP MODAL END ================= -->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col logo-col">
+        <a href="#" class="logo light">
+          <img src="images/logo-white.png" style="width:100px;" alt="">
+        </a>
+        <p style="color:#fff;font-size:16px;">Treatment outcomes vary from person to person. Please consult a qualified doctor for advice specific to you.</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/people/VAD-MedConsult/61595794751706/" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/vadmedconsult/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="instagram"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h2>Treatments</h2>
+        <ul>
+          <li><a href="#treatments">Cataract Surgery</a></li>
+          <li><a href="#treatments">Retina Treatment</a></li>
+          <li><a href="#treatments">Glaucoma Care</a></li>
+          <li><a href="#treatments">ICL (Implantable Contact Lens)</a></li>
+          <li><a href="#treatments">Oculoplasty</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h2>Contact Us</h2>
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-location-dot"></i> Sarafa Bazar, Lashkar Gwalior</li>
+          <li><i class="fa-solid fa-phone"></i> 9752248870</li>
+          <li><i class="fa-solid fa-envelope"></i> vadmedconsult@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-flex">
+        <p>Copyright © 2026 VAD MedConsult. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script1.js?v=2.0"></script>
+</body>
+</html>
